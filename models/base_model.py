@@ -24,4 +24,3 @@ class BaseModel:
     def __str__(self):
         clname = self.__class__.__name__
         return f"{clname} {self.id} {self.__dict__}"
-
